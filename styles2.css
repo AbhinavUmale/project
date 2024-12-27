@@ -1,0 +1,103 @@
+:root {
+    --bg-color: #1f212d;
+    --sidebar-bg: #1f212d;
+    --card-bg: #1f212d;
+    --text-color: #ffffff;
+    --text-muted: #9ca3af;
+    --accent-color: #8b5cf6;
+}
+
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: white;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: var(--accent-color);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Form container styles */
+.form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.form-container p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--accent-color);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--accent-color);
+    color: #fff;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: #fff;
+    font-size: 0.9em;
+}
